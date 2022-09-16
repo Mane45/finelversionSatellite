@@ -1,0 +1,151 @@
+#putText12 {
+    z-index: 10;
+    position: absolute;
+    color: #fff;
+    border: 1px solid #1a3842;
+    padding: 10px;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    width: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* display: none; */
+}
+#base-container {
+    position: absolute !important;
+}
+#putText11 {
+    z-index: 10;
+    position: absolute;
+    color: #fff;
+    border: 1px solid red;
+    padding: 10px;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    width: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* display: none; */
+}
+/* #text {
+    display: none;
+    position: absolute;
+    color: #fff;
+    border: 1px solid #1a3842;
+    padding: 10px;
+    z-index: 10;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 300px;
+} */
+.text {
+    display: none;
+    width: 300px
+}
+.showtext {
+    display: block;
+}
+#putText1,
+#putText {
+    display: block;
+    color: #fff;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 20px;
+}
+#putTextBox {
+    display: none;
+}
+#putText1Box {
+    display: none;
+}
+#sketchToolBox {
+    position: absolute;
+    color: #fff;
+    /* border: 1px solid #fff; */
+    right: 0;
+    margin: 15px 20px;
+}
+#logo-div {
+    position: absolute;
+    z-index: 15;
+    /* border: 1px solid #1a3842; */
+    border: 1px solid rgb(0, 150, 255);
+    border-radius: 10px;
+    margin: 15px;
+    display: flex;
+    color: #549fe3;
+    /*color: rgb(0, 150, 255);*/
+    font-weight: bold;
+    align-items: center;
+    /* padding-right: 15px; */
+}
+#logo-div img, 
+#logo-div a {
+    width: 150px;
+}
+#logo-div a {
+    margin: 10px;
+}
+#logo-div p {
+    font-size: 30px;
+    font-style: oblique;
+
+}
+.esri-ui-inner-container {
+    inset: 90px 15px 30px !important;
+    display: none !important;
+}
+#messageBox {
+    display: none;
+    /* width: 300px; */
+    position: absolute;
+    z-index: 15;
+    bottom: 0;
+    right: 0;
+    margin: 30px;
+    border: 1px solid #549fe3;
+    border-radius: 10px;
+    padding: 10px;
+    flex-direction: column;
+}
+.more-arrow {
+    transform: rotate(90deg);
+}
+.rotate1 {
+    color: #fff;
+    transform: rotate(-90deg);
+}
+#more {
+    display: flex;
+    justify-content: end;
+}
+h3 {
+    margin: 10px;
+    color: #549fe3;
+    font-style: oblique;
+    font-size: 23px;
+}
+.titleAlert {
+    font-size: 20px;
+    font-style: oblique;
+    border: none;
+    outline: none;
+    background: none;
+    top: -23px;
+    position: relative;
+}
+.titleAlert::placeholder {
+    color: #fff;
+}
